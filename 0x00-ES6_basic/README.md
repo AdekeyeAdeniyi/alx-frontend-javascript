@@ -73,6 +73,7 @@ Configuration files
 <details>
     <summary> Click to show/hide file contents </summary>
 
+    ```json
     {
       "scripts": {
         "lint": "./node_modules/.bin/eslint",
@@ -92,6 +93,7 @@ Configuration files
         "jest": "^24.9.0"
       }
     }
+    ```
 </details>
 
 ### `babel.config.js`
@@ -99,6 +101,7 @@ Configuration files
 <details>
     <summary> Click to show/hide file contents </summary>
 
+    ```js
     module.exports = {
       presets: [
         [
@@ -111,6 +114,7 @@ Configuration files
         ],
       ],
     };
+    ```
 </details>
 
 ### `.eslintrc.js`
@@ -118,7 +122,7 @@ Configuration files
 <details>
     <summary> Click to show/hide file contents </summary>
 
-    ```json
+    ```js
     module.exports = {
       env: {
         browser: false,
@@ -155,7 +159,6 @@ Configuration files
       ]
     };
     ```
-
 </details>
 
 ### Finally…
