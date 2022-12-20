@@ -117,6 +117,8 @@ Configuration files
 
 <details>
     <summary> Click to show/hide file contents </summary>
+
+    ```json
     module.exports = {
       env: {
         browser: false,
@@ -152,6 +154,8 @@ Configuration files
         }
       ]
     };
+    ```
+
 </details>
 
 ### Finally…
