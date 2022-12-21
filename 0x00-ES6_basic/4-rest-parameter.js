@@ -1,5 +1,5 @@
-function returnHowManyArguments() {
-  return arguments.length;
+function returnHowManyArguments(...args) {
+  return args.length;
 }
 
 export default returnHowManyArguments;
