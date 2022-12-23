@@ -3,7 +3,7 @@ function handleResponseFromAPI(promise) {
     satus: 200,
     body: 'success',
   };
-  promise
+  return promise
     .then(() => object)
     .catch(() => new Error())
     .finally(() => console.log('Got a response from the API'));
