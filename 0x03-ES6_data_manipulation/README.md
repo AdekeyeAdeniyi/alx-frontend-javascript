@@ -1,30 +1,24 @@
-ES6 Promises
-============
-
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/75862d67ca51a042003c.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221223T223558Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5b2457abfcb613a7688a21b70349af820ac3477485a19c1cf25749ba0f26b4f5)
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/6ab7bec4727cb5c91257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230104T184739Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1a62bf70f2a615a89d1badfdb59ce77725475ed480167c1b3e93ca6630a1980c)
 
 Resources
 ---------
 
 **Read or watch**:
 
-*   [Promise](/rltoken/8IEjDdrFqrfsXUV9frNmKA "Promise")
-*   [JavaScript Promise: An introduction](/rltoken/EnBUkluIIlLr0Z3dRJV4LQ "JavaScript Promise: An introduction")
-*   [Await](/rltoken/SALOZ-GAD5GVCTnK1iTCdA "Await")
-*   [Async](/rltoken/QZMWLFR29PO2bVOS4_8j5Q "Async")
-*   [Throw / Try](/rltoken/TXqH5zA1NSVCwCoyr1cNxg "Throw / Try")
+*   [Array](/rltoken/KDAVab6oKKsFBXJc2-ll-A "Array")
+*   [Typed Array](/rltoken/nhlRl04I3ZqeEP80ZxCeeA "Typed Array")
+*   [Set Data Structure](/rltoken/C8x3dhHo0p3uE7S9-EyP9Q "Set Data Structure")
+*   [Map Data Structure](/rltoken/XR-ql9v9-PWcXnvTc749gw "Map Data Structure")
+*   [WeakMap](/rltoken/NEy8fk2QRytajR8hgXkCog "WeakMap")
 
 Learning Objectives
 -------------------
 
-At the end of this project, you are expected to be able to [explain to anyone](/rltoken/r2aoCDHSuX69brVS6Rb5yg "explain to anyone"), **without the help of Google**:
+At the end of this project, you are expected to be able to [explain to anyone](/rltoken/pHP_gg36nEFY-PHOJeeyYA "explain to anyone"), **without the help of Google**:
 
-*   Promises (how, why, and what)
-*   How to use the `then`, `resolve`, `catch` methods
-*   How to use every method of the Promise object
-*   Throw / Try
-*   The await operator
-*   How to use an `async` function
+*   How to use map, filter and reduce on arrays
+*   Typed arrays
+*   The Set, Map, and Weak link data structures
 
 Requirements
 ------------
@@ -36,6 +30,7 @@ Requirements
 *   Your code should use the `js` extension
 *   Your code will be tested using `Jest` and the command `npm run test`
 *   Your code will be verified against lint using ESLint
+*   Your code needs to pass all the tests and lint. You can verify the entire project running `npm run full-test`
 *   All of your functions must be exported
 
 Setup
@@ -61,11 +56,11 @@ Setup
 in your project directory:
 
 *   Install Jest using: `npm install --save-dev jest`
-*   Install Babel using: `npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/cli`
+*   Install Babel using: `npm install --save-dev babel-jest @babel/core @babel/preset-env`
 *   Install ESLint using: `npm install --save-dev eslint`
 
-Files
------
+Configuration files
+-------------------
 
 ### `package.json`
 
@@ -163,21 +158,3 @@ Files
 ### and…
 
 Don’t forget to run `$ npm install` when you have the `package.json`
-
-Response Data Format
---------------------
-
-`uploadPhoto` returns a response with the format
-
-    {
-      status: 200,
-      body: 'photo-profile-1',
-    }
-    
-
-`createUser` returns a response with the format
-
-    {
-      firstName: 'Guillaume',
-      lastName: 'Salva',
-    }

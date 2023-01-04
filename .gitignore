@@ -1,2 +1,7 @@
 /node_modules
 test.*
+tests
+package.json
+package-lock.json
+.eslintrc
+babel.config.js

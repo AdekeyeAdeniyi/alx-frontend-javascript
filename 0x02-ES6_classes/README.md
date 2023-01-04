@@ -65,9 +65,10 @@ Configuration files
 
 ### `package.json`
 
-Click to show/hide file contents
+<details>
+    <summary> Click to show/hide file contents </summary>
 
-    
+    ```json
     {
       "scripts": {
         "lint": "./node_modules/.bin/eslint",
@@ -78,8 +79,8 @@ Click to show/hide file contents
       },
       "devDependencies": {
         "@babel/core": "^7.6.0",
-        "@babel/preset-env": "^7.6.0",
         "@babel/node": "^7.8.0",
+        "@babel/preset-env": "^7.6.0",
         "eslint": "^6.4.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.18.2",
@@ -87,12 +88,15 @@ Click to show/hide file contents
         "jest": "^24.9.0"
       }
     }
+    ```
+</details>
 
 ### `babel.config.js`
 
-Click to show/hide file contents
+<details>
+    <summary> Click to show/hide file contents </summary>
 
-    
+    ```js
     module.exports = {
       presets: [
         [
@@ -105,12 +109,15 @@ Click to show/hide file contents
         ],
       ],
     };
+    ```
+</details>
 
 ### `.eslintrc.js`
 
-Click to show/hide file contents
+<details>
+    <summary> Click to show/hide file contents </summary>
 
-    
+    ```js
     module.exports = {
       env: {
         browser: false,
@@ -131,8 +138,6 @@ Click to show/hide file contents
       },
       plugins: ['jest'],
       rules: {
-        'max-classes-per-file': 'off',
-        'no-underscore-dangle': 'off',
         'no-console': 'off',
         'no-shadow': 'off',
         'no-restricted-syntax': [
@@ -148,6 +153,8 @@ Click to show/hide file contents
         }
       ]
     };
+    ```
+</details>
 
 ### and…
 
