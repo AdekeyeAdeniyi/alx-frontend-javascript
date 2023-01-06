@@ -4,10 +4,10 @@ function updateStudentGradeByCity(data, location, newGrade) {
 
     const newData = [...result].map((data) => {
       const student = data;
-      student.grades = 'N/A';
+      student.grade = 'N/A';
       [...newGrade].forEach((grade) => {
         if (grade.studentId === student.id) {
-          student.grades = grade.grade;
+          student.grade = grade.grade;
         }
       });
 
