@@ -7,3 +7,7 @@ interface Teacher {
   contract: boolean;
   [propName: string]: any;
 }
+
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
