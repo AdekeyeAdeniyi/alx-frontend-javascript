@@ -36,3 +36,7 @@ const createEmployee = (salary: string | number): Director | Teacher => {
 const isDirector = (employee: Teacher | Director): boolean => employee instanceof Director;
 
 const executeWork = (employee: Teacher | Director): string => (employee instanceof Director ? employee.workDirectorTasks() : employee.workTeacherTasks());
+
+type Subjects = 'Math' | 'History';
+
+const teachClass = (todayClass: Subjects):string => (todayClass === 'Math' ? 'Teaching Math' : 'Teaching History');
